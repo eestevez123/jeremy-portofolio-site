@@ -1,0 +1,11 @@
+{
+  "name": "jeremy-portfolio",
+  "version": "1.0.0",
+  "description": "Codebase for Jeremy's portfolio website – a modern, responsive site showcasing projects, skills, and experience. Built with HTML5 and the Helios template, this repo features a clean design and interactive components for an engaging user experience.",
+  "scripts": {
+    "start": "http-server . -p 8090"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
