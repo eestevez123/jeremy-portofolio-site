@@ -4,6 +4,15 @@
     justify-content: center;
 }
 
+.contact-icons li {
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.contact-icons li:hover {
+    transform: scale(1.1); /* Slightly enlarges the icon */
+    filter: brightness(1.2); /* Brightens the icon */
+}
+
 #footer .copyright {
     color: white;
 }
@@ -15,18 +24,32 @@
 .custom-icon {
     display: inline-block;
     background: none;
-    width: 2.5em;
-    height: 2.5em;
     line-height: 2.5em;
     text-align: center;
-    border-radius: 100%;
     border: 0;
     color: inherit;
-}
-
-.google-scholar-icon {
     width: 2em;
     height: 2em;
     border-radius: unset;
     margin-bottom: -0.5em;
+}
+
+
+.linkedin-custom-icon {
+    width: auto;
+    height: 2em;
+}
+
+.github-icon {
+    font-size: 1.5em;
+    margin: -0.5em;
+}
+
+.arvix-custom-icon {
+    width: auto;
+    height: 2em;
+}
+
+.arvix-a {
+    margin-right: 2em;
 }

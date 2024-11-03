@@ -2738,11 +2738,6 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
-
-			html, body {
-				overflow-x: hidden;
-			}
-
 			body, input, textarea, select {
 				font-size: 12.5pt;
 				line-height: 1.5em;
