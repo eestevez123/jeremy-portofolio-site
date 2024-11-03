@@ -1,0 +1,32 @@
+.contact-icons {
+    background: rgba(128, 128, 128, 0.35) !important;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer .copyright {
+    color: white;
+}
+
+#footer .copyright a {
+    color: white;
+}
+
+.custom-icon {
+    display: inline-block;
+    background: none;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    border-radius: 100%;
+    border: 0;
+    color: inherit;
+}
+
+.google-scholar-icon {
+    width: 2em;
+    height: 2em;
+    border-radius: unset;
+    margin-bottom: -0.5em;
+}
